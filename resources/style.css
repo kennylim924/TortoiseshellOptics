@@ -1,0 +1,38 @@
+/* Base Elements */
+
+html, body {
+  font-size: 18px;
+  line-height: 1.4rem;
+  font-family: Helvetica;
+}
+
+/* Classes */
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.company-header {
+  background-color: cadetblue;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-title {
+  display: flex;
+  padding: 1rem 2rem;
+}
+
+.company-header img {
+  height: 1.5rem;
+  padding-right: 1rem;
+}
+
+.nav-menu ul, li {
+  list-style: none;
+  display: inline;
+  padding: 1rem 2rem;
+}
