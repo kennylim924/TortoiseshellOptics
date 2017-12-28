@@ -4,14 +4,26 @@ html, body {
   font-size: 18px;
   line-height: 1.4rem;
   font-family: Helvetica;
+  margin: 0;
 }
 
 /* Classes */
 
+.main-background {
+  background-image: url(../resources/images/glasses-bg.png);
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+  height: 30rem;
+}
+
 .container {
   max-width: 960px;
-  margin: 0 auto;
+  margin: auto;
+  padding-top: 1rem;
 }
+
+/* Header and Navigation */
 
 .company-header {
   background-color: cadetblue;
@@ -35,4 +47,16 @@ html, body {
   list-style: none;
   display: inline;
   padding: 1rem 2rem;
+}
+
+/* Main Banner */
+
+.main-banner {
+  font-weight: bold;
+  background-color: white;
+  text-align: center;
+  margin-top: 10rem;
+  padding: 1.5rem 5rem;
+  width: max-content;
+  float: right;
 }
