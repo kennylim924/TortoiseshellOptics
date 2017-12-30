@@ -61,7 +61,7 @@ html, body {
   float: right;
 }
 
-/* Services */
+/* Services Section */
 
 .services {
   display: flex;
@@ -91,4 +91,38 @@ html, body {
 .service img.truck-icon {
   width: 5rem;
   margin-bottom: 1rem;
+}
+
+/* Info Section */
+
+.information {
+  display: flex;
+  justify-content: center;
+}
+
+.info {
+  width: 35%;
+  padding-right: 5%;
+}
+
+.title {
+  background-color: cadetblue;
+  color: white;
+  font-weight: bold;
+  width: 10rem;
+  padding: 0.5rem 1.25rem;
+}
+
+/* Footer */
+
+footer {
+  background-color: azure;
+  margin-top: 5rem;
+  padding: 4rem;
+  display: flex;
+}
+
+footer img {
+  height: 1.5rem;
+  padding-right: 1rem;
 }
