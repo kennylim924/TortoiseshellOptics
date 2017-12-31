@@ -49,6 +49,10 @@ html, body {
   padding: 1rem 2rem;
 }
 
+.mobile-nav {
+  display: none;
+}
+
 /* Main Banner */
 
 .main-banner {
@@ -59,6 +63,7 @@ html, body {
   padding: 1.5rem 5rem;
   width: max-content;
   float: right;
+  opacity: 0.90;
 }
 
 /* Services Section */
@@ -125,4 +130,84 @@ footer {
 footer img {
   height: 1.5rem;
   padding-right: 1rem;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    padding: 0;
+    max-width: 100%;
+  }
+
+  .main-background {
+    background-position: 40%;
+  }
+
+  .main-banner {
+    font-size: 1.33rem;
+    text-align: center;
+    margin-top: 5rem;
+    margin-right: 2rem;
+    padding: .75rem 4rem;
+  }
+}
+
+@media only screen and (max-width: 830px) {
+  .nav-menu {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .main-background {
+    background-position: 20%;
+    height: 17rem;
+  }
+
+  .logo-title span {
+    display: none;
+  }
+
+  .main-banner {
+    font-size: 0.625rem;
+    margin: 7rem auto;
+    width: 100%;
+  }
+
+  .main-banner h1 {
+    align-items: center;
+  }
+
+  .services {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  .information {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .info {
+    width: auto;
+  }
+
+  .info p {
+    padding-left: 1rem;
+    padding-bottom: 4rem;
+    font-size: 0.77rem;
+  }
+
+  .title {
+    width: 100%;
+    text-align: center;
+  }
 }
